@@ -18,7 +18,7 @@ console.log (weekdays2);
 
 getData();
 function getData() {
-fetch('/data.json')
+fetch('./data.json')
 .then(response => response.json())
 .then(data => myData(data))
 .catch(error => console.log(error));
