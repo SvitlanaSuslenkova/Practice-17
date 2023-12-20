@@ -1,3 +1,4 @@
+'use strict';
 const daysTexts = document.querySelectorAll('span');
 const spentAmounts = document.querySelectorAll('.spentAmount');
 const spentAdayColumns = document.querySelectorAll('.spentAdayColumn');
